@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,7 +7,17 @@
     <title>Vite + React + TS</title>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <div style="display: flex; flex-direction: column">
+      <div id="root"></div>
+      <script type="module" src="/src/main.tsx"></script>
+      <div style="display: block">
+        <div style="display: flex; flex-direction: column">
+          <iframe
+            src="http://localhost:3011"
+            style="width: 400px; height: 200; border: none"
+          ></iframe>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
