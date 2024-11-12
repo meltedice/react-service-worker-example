@@ -5,6 +5,7 @@
   "description": "Service Worker example with nested React App",
   "scripts": {
     "start:parent": "npm run dev -w parent",
+    "start:child-with-sw": "npm run dev -w child-with-sw",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ice",
