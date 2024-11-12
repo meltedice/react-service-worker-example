@@ -4,10 +4,12 @@
   "private": true,
   "description": "Service Worker example with nested React App",
   "scripts": {
+    "start:parent": "npm run dev -w parent",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ice",
   "workspaces": [
-    "packages/parent"
+    "packages/parent",
+    "packages/child-with-sw"
   ]
 }
